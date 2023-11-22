@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<string-array name="stonesizenames">
+		<item>32</item>
+		<item>40</item>
+		<item>48</item>
+		<item>56</item>
+		<item>64</item>
+		<item>72</item>
+		<item>80</item>
+		<item>88</item>
+		<item>96</item>
+		<item>104</item>
+		<item>112</item>
+		<item>120</item>
+		<item>128</item>
+	</string-array>
+	<string-array name="stonesizevalues">
+		<item>32</item>
+		<item>40</item>
+		<item>48</item>
+		<item>56</item>
+		<item>64</item>
+		<item>72</item>
+		<item>80</item>
+		<item>88</item>
+		<item>96</item>
+		<item>104</item>
+		<item>112</item>
+		<item>120</item>
+		<item>128</item>
+	</string-array>
+	
+	<string-array name="tablesizenames">
+		<item>screen</item>
+		<item>screen * 1.5</item>
+		<item>screen * 2</item>
+	</string-array>
+	<string-array name="tablesizevalues">
+		<item>1</item>
+		<item>1.5</item>
+		<item>2</item>
+	</string-array>				
+	
+</resources>
+

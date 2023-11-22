@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:robobunny="http://robobunny.com"
+    android:key="preference_screen">
+    
+    <PreferenceCategory
+        android:title="Display"
+        android:key="display_category">
+        
+        <com.robobunny.SeekBarPreference
+            android:key="stoneSize"
+            android:title="Stone size"
+            android:summary="Set size of stones."
+            android:defaultValue="28"
+            android:max="128"
+            robobunny:min="32"
+            robobunny:interval="8"/>        
+
+        <com.robobunny.SeekBarPreference
+            android:key="tableSizeX"
+            android:title="Table width"
+            android:summary="Set width of the play table in percent."
+            android:defaultValue="100"
+            android:max="300"        
+            robobunny:min="50"
+            robobunny:interval="10"
+            robobunny:unitsRight="%"/>
+        
+        <com.robobunny.SeekBarPreference
+            android:key="tableSizeY"
+            android:title="Table height"
+            android:summary="Set height of the play table in percent."
+            android:defaultValue="100"
+            android:max="300"        
+            robobunny:min="50"
+            robobunny:interval="10"
+            robobunny:unitsRight="%"/>        
+        		
+        <CheckBoxPreference
+            android:key="sound"
+            android:title="Sound"
+            android:summary="Enable sound when stones collide."
+            android:defaultValue="true"/>
+        
+        <CheckBoxPreference
+            android:key="showscore"
+            android:title="Score"
+            android:summary="Display Score."
+            android:defaultValue="true"/>
+        
+        <CheckBoxPreference
+            android:key="demo"
+            android:title="Enable demo"
+            android:summary="Start demo after 2 minutes."
+            android:defaultValue="true"/>
+            
+        <CheckBoxPreference
+            android:key="zoom"
+            android:title="Enable zoom"
+            android:summary="Enable zoom in and zoom out."
+            android:defaultValue="false"
+            android:enabled="false"/>
+		
+	</PreferenceCategory>
+    
+</PreferenceScreen>
